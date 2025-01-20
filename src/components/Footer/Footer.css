@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--bg-secondary);
+  padding: 1.5rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+.copyright {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  text-align: center;
+}

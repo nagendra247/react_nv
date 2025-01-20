@@ -1,0 +1,29 @@
+.learn-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.learn-title {
+  color: #646cff;
+  margin-bottom: 2rem;
+}
+
+.work-in-progress {
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.work-in-progress h2 {
+  color: #646cff;
+  margin-bottom: 1rem;
+}
+
+.work-in-progress p {
+  color: #888;
+  line-height: 1.6;
+}

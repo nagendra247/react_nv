@@ -1,0 +1,59 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  color: #646cff;
+  margin-bottom: 3rem;
+  animation: fadeIn 1s ease-in;
+}
+
+.options-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.option-card {
+  width: 300px;
+  padding: 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.option-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.option-card p {
+  color: #888;
+  line-height: 1.6;
+}
+
+.primary {
+  background-color: #1a1a1a;
+  border: 2px solid #646cff;
+}
+
+.secondary {
+  background-color: #1a1a1a;
+  border: 2px solid #535bf2;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
